@@ -1,0 +1,16 @@
+[package]
+name = "si1145"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ryan Summers <ryan.summers@vertigo-designs.com"]
+keywords = ["si1145", "embedded-hal-driver", "driver", "light", "sensor"]
+categories = ["embedded", "hardware-support", "no-std"]
+license = "MIT OR 0BSD"
+readme = "README.md"
+
+[dependencies]
+embedded-hal = "1"
+num_enum = { version = "0.7", default-features = false }
+
+[dev-dependencies]
+linux-embedded-hal = "0.4"
