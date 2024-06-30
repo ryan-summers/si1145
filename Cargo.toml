@@ -2,6 +2,8 @@
 name = "si1145"
 version = "0.1.0"
 edition = "2021"
+description = "No-std driver for the Si1145 ambient light sensor"
+repository = "https://github.com/ryan-summers/si1145"
 authors = ["Ryan Summers <ryan.summers@vertigo-designs.com"]
 keywords = ["si1145", "embedded-hal-driver", "driver", "light", "sensor"]
 categories = ["embedded", "hardware-support", "no-std"]
